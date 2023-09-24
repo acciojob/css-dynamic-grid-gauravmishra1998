@@ -1,8 +1,7 @@
 /*  your css code here. If applicable */
 .grid-container{
 	display:grid;
-	justify-content:center;
-	align-items:center;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 	grid-gap:10px 10px;
 }
 .grid-item{ display:flex;
