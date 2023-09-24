@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 .grid-container{
-	display:flex;
+	display:grid;
 	justify-content:center;
 	align-items:center;
 }
