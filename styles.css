@@ -3,8 +3,9 @@
 	display:grid;
 	justify-content:center;
 	align-items:center;
+	grid-gap:10px 10px;
 }
-.grid-item{
+.grid-item{ display:flex;
 	background-color:lightgray;
 	height:150px;
 	width:200px;
